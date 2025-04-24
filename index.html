@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DARYLL | Full Stack Developer</title>
-    <link rel="shortcut icon" href="image/PPP__2___1_-removebg-preview.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="styles.css">
@@ -43,7 +42,7 @@
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content animate__animated animate__fadeInLeft">
-                <h1>Hi, I'm <span>DARYLL</span></h1>
+                <h1>Hi, I'm <span class="name-wave">DARYLL</span></h1>
                 <h2>Full Stack Developer</h2>
                 <p>I build robust, scalable web applications with modern technologies and clean code.</p>
                 <div class="cta-buttons">
@@ -59,37 +58,62 @@
     </section>
 
     <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-image animate__animated animate__fadeInLeft">
-                    <img src="https://via.placeholder.com/300x300" alt="About You">
-                </div>
-                <div class="about-text animate__animated animate__fadeInRight">
-                    <p>I'm a passionate full-stack developer with expertise in both frontend and backend technologies. With experience in JavaScript, Java, and PHP ecosystems, I create comprehensive web solutions from database to UI.</p>
-                    <p>My approach combines technical excellence with user-centered design to deliver applications that are both powerful and intuitive. When I'm not coding, I enjoy contributing to open-source projects and staying updated with the latest tech trends.</p>
-                    <div class="about-details">
-                        <div class="detail-item">
-                            <span>Name:</span>
-                            <p>Your Name</p>
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">About Me</h2>
+        <div class="about-content">
+            <div class="about-image" data-aos="fade-right">
+                <div class="image-wrapper">
+                    <img src="image/D195E967-25BA-4B87-B900-C3DE1AC05788-removebg-preview.png" alt="Daryll" class="main-image">
+                    <div class="tech-stack">
+                        <div class="tech-icon" data-aos="zoom-in" data-aos-delay="100">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
                         </div>
-                        <div class="detail-item">
-                            <span>Email:</span>
-                            <p>your.email@example.com</p>
+                        <div class="tech-icon" data-aos="zoom-in" data-aos-delay="200">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
                         </div>
-                        <div class="detail-item">
-                            <span>Location:</span>
-                            <p>Your City, Country</p>
+                        <div class="tech-icon" data-aos="zoom-in" data-aos-delay="300">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
                         </div>
-                        <div class="detail-item">
-                            <span>Experience:</span>
-                            <p>X+ Years</p>
+                        <div class="tech-icon" data-aos="zoom-in" data-aos-delay="400">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
                         </div>
                     </div>
                 </div>
             </div>
+            
+            <div class="about-text" data-aos="fade-left">
+                <h3 class="about-subtitle">Full Stack Developer & Problem Solver</h3>
+                <div class="animated-text">
+                    <p class="typing-text">I build <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+                </div>
+                
+                <div class="about-description">
+                    <p>With a passion for creating elegant solutions to complex problems, I specialize in developing full-stack applications that deliver exceptional user experiences.</p>
+                    <p>My approach combines technical expertise with creative problem-solving to build scalable, efficient, and maintainable systems.</p>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card" data-aos="flip-up" data-aos-delay="100">
+                        <div class="stat-number" data-count="50">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card" data-aos="flip-up" data-aos-delay="200">
+                        <div class="stat-number" data-count="0">0</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card" data-aos="flip-up" data-aos-delay="300">
+                        <div class="stat-number" data-count="1">0</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                </div>
+                
+                <div class="signature">
+                    <img src="https://i.imgur.com/JQ9pSdW.png" alt="Signature" data-aos="fade-up">
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <section id="skills" class="skills">
         <div class="container">
@@ -377,59 +401,107 @@
 
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
+            <h2 class="section-title">Let's Connect</h2>
             <div class="contact-content">
-                <div class="contact-info animate__animated animate__fadeInLeft">
-                    <div class="info-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h3>Email</h3>
-                            <p>your.email@example.com</p>
+                <div class="contact-info">
+                    <h3 class="contact-subtitle" data-aos="fade-right">Get in touch</h3>
+                    <p class="contact-description" data-aos="fade-right" data-aos-delay="100">Have a project in mind or want to discuss potential opportunities? I'd love to hear from you!</p>
+                    
+                    <div class="info-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="info-item" data-aos="fade-up" data-aos-delay="250">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Email</h4>
+                                <a href="mailto:your.email@example.com">your.email@example.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+                            <div class="info-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Phone</h4>
+                                <a href="tel:+15551234567">+1 (555) 123-4567</a>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item" data-aos="fade-up" data-aos-delay="350">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Location</h4>
+                                <p>Your City, Country</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="info-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h3>Phone</h3>
-                            <p>+1 (555) 123-4567</p>
+                    
+                    <div class="social-links" data-aos="fade-up" data-aos-delay="400">
+                        <h4>Follow Me</h4>
+                        <div class="social-icons">
+                            <a href="#" target="_blank" class="social-icon" aria-label="GitHub" data-aos="zoom-in" data-aos-delay="450">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" target="_blank" class="social-icon" aria-label="LinkedIn" data-aos="zoom-in" data-aos-delay="500">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" target="_blank" class="social-icon" aria-label="Twitter" data-aos="zoom-in" data-aos-delay="550">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" target="_blank" class="social-icon" aria-label="Instagram" data-aos="zoom-in" data-aos-delay="600">
+                                <i class="fab fa-instagram"></i>
+                            </a>
                         </div>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h3>Location</h3>
-                            <p>Your City, Country</p>
-                        </div>
-                    </div>
-                    <div class="social-links">
-                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
-                <form class="contact-form animate__animated animate__fadeInRight" id="contactForm">
-                    <div class="form-group">
-                        <input type="text" id="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" id="subject" placeholder="Subject">
-                    </div>
-                    <div class="form-group">
-                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn">Send Message</button>
-                </form>
+                
+                <div class="contact-form-wrapper" data-aos="fade-left" data-aos-delay="200">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-header" data-aos="fade-down">
+                            <h3>Send me a message</h3>
+                            <p>I typically respond within 24 hours</p>
+                        </div>
+                        
+                        <div class="form-group" data-aos="fade-up" data-aos-delay="100">
+                            <input type="text" id="name" required>
+                            <label for="name">Your Name</label>
+                            <span class="focus-border"></span>
+                        </div>
+                        
+                        <div class="form-group" data-aos="fade-up" data-aos-delay="150">
+                            <input type="email" id="email" required>
+                            <label for="email">Your Email</label>
+                            <span class="focus-border"></span>
+                        </div>
+                        
+                        <div class="form-group" data-aos="fade-up" data-aos-delay="200">
+                            <input type="text" id="subject">
+                            <label for="subject">Subject</label>
+                            <span class="focus-border"></span>
+                        </div>
+                        
+                        <div class="form-group" data-aos="fade-up" data-aos-delay="250">
+                            <textarea id="message" rows="5" required></textarea>
+                            <label for="message">Your Message</label>
+                            <span class="focus-border"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn submit-btn" data-aos="zoom-in" data-aos-delay="300">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2023 Your Name. All rights reserved.</p>
+            <p>&copy; 2025 John Daryll Sampilingan. All rights reserved.</p>
             <a href="#home" class="back-to-top">
                 <i class="fas fa-arrow-up"></i>
             </a>
@@ -438,122 +510,10 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
-    <script src="script.js"></script>
-    <script>
-       document.addEventListener('DOMContentLoaded', function() {
-  const canvas = document.getElementById('circuit');
-  const ctx = canvas.getContext('2d');
-  
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
-  
-  // Circuit settings
-  const gridSize = 40;
-  const cols = Math.ceil(canvas.width / gridSize);
-  const rows = Math.ceil(canvas.height / gridSize);
-  const nodes = [];
-  const connections = [];
-  
-  // Create nodes
-  for (let x = 0; x < cols; x++) {
-    for (let y = 0; y < rows; y++) {
-      if (Math.random() > 0.7) { // 70% chance to create a node
-        nodes.push({
-          x: x * gridSize,
-          y: y * gridSize,
-          active: false
-        });
-      }
-    }
-  }
-  
-  // Create connections between nearby nodes
-  nodes.forEach((node, i) => {
-    // Find closest nodes
-    const closest = nodes
-      .map((other, j) => ({ index: j, distance: Math.hypot(node.x - other.x, node.y - other.y) }))
-      .filter(item => item.distance > 0 && item.distance < gridSize * 2)
-      .sort((a, b) => a.distance - b.distance)
-      .slice(0, 3); // Connect to max 3 nearest nodes
-    
-    closest.forEach(item => {
-      if (!connections.some(conn => 
-        (conn.from === i && conn.to === item.index) || 
-        (conn.from === item.index && conn.to === i))) {
-        connections.push({
-          from: i,
-          to: item.index,
-          progress: 0,
-          speed: 0.002 + Math.random() * 0.003
-        });
-      }
-    });
-  });
-  
-  // Animation loop
-  function animate() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    
-    // Draw connections
-    ctx.strokeStyle = '#0f0';
-    ctx.lineWidth = 1;
-    
-    connections.forEach(conn => {
-      const from = nodes[conn.from];
-      const to = nodes[conn.to];
-      
-      // Animate the connection
-      conn.progress += conn.speed;
-      if (conn.progress > 1) conn.progress = 0;
-      
-      const activePoint = {
-        x: from.x + (to.x - from.x) * conn.progress,
-        y: from.y + (to.y - from.y) * conn.progress
-      };
-      
-      // Draw the full connection (dim)
-      ctx.beginPath();
-      ctx.moveTo(from.x, from.y);
-      ctx.lineTo(to.x, to.y);
-      ctx.strokeStyle = 'rgba(0, 255, 0, 0.1)';
-      ctx.stroke();
-      
-      // Draw the active part
-      ctx.beginPath();
-      ctx.moveTo(from.x, from.y);
-      ctx.lineTo(activePoint.x, activePoint.y);
-      ctx.strokeStyle = '#0f0';
-      ctx.stroke();
-      
-      // Draw a glowing dot at the active point
-      ctx.beginPath();
-      ctx.arc(activePoint.x, activePoint.y, 2, 0, Math.PI * 2);
-      ctx.fillStyle = '#0f0';
-      ctx.fill();
-    });
-    
-    // Draw nodes
-    nodes.forEach(node => {
-      ctx.beginPath();
-      ctx.arc(node.x, node.y, 3, 0, Math.PI * 2);
-      ctx.fillStyle = node.active ? '#0f0' : 'rgba(0, 255, 0, 0.5)';
-      ctx.fill();
-      
-      // Randomly activate nodes
-      if (Math.random() > 0.99) node.active = !node.active;
-    });
-    
-    requestAnimationFrame(animate);
-  }
-  
-  animate();
-  
-  // Handle window resize
-  window.addEventListener('resize', function() {
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-  });
-});
-    </script>
+    <script src="js/hero.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/about.js"></script>
 </body>
 </html>
