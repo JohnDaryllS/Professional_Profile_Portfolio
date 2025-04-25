@@ -203,10 +203,9 @@ nav {
     padding: 20px 0;
 }
 
-.logo h1 {
-    font-size: 2rem;
-    color: var(--primary-color);
-    font-weight: 700;
+.logo {
+    width: 50px;
+    align-items: start;
 }
 
 .nav-links {
