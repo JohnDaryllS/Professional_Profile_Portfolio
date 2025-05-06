@@ -442,22 +442,16 @@ nav {
 
 .image-wrapper {
     position: relative;
-    max-width: 400px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
 .main-image {
     width: 100%;
     border-radius: 20px;
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
     transform: perspective(1000px) rotateY(-15deg);
     transition: all 0.5s ease;
-    background: linear-gradient(145deg, #e6e6e6, #ffffff);
     padding: 20px;
-}
-
-.about-image:hover .main-image {
-    transform: perspective(1000px) rotateY(0deg);
 }
 
 .tech-stack {
